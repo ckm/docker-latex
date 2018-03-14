@@ -15,3 +15,4 @@ RUN apt-get update \
     && texhash \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+    
